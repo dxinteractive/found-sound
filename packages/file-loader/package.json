@@ -19,7 +19,6 @@
   },
   "scripts": {
     "prep": "yarn && cd dev && yarn",
-    "test": "yarn jest",
     "lint": "yarn eslint src",
     "pretty": "yarn prettier --write .",
     "prepare": "yarn build"
