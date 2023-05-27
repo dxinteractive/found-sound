@@ -16,10 +16,10 @@
     "noEmit": true,
     "jsx": "react-jsx",
     "paths": {
-      "found-sound/*": ["../sampler/src/*"]
+      "found-sound-file-loader": ["../file-loader/src/file-loader.ts"]
     }
   },
-  "include": ["src", "../sampler/src"],
+  "include": ["src", "../file-loader/src"],
   "exclude": [
     "*.test.ts"
   ],
